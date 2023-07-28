@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<!-- 
+	Author:		Matheus Alves
+	Date:		07/24/2023
+	Purpose: 	This is the home page for the Cairo Housing Authority website.
+	Filename:	index.html
+	--> 
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles/cha-reset.css" rel="stylesheet" media="all"/>
+		<link href="styles/cha-layout.css" rel="stylesheet" media="screen"/>
+		<link href="styles/cha-slideshow-styles.css" rel="stylesheet" media="screen" />
+		<link href="styles/cha-tables.css" rel="stylesheet" media="screen" />
+		<link href="styles/cha-mobile.css" rel="stylesheet" media="screen" />
+		<link href="styles/cha-printer.css" rel="stylesheet" media="print" />
+	</head>
+<body>
+	<header>
+		<a id="logo-header"><img src="media/chalogo1-color-noback.png" alt="Cairo Housing Authority logo" id="logo-image"/></a>
+		<nav id="top" class="nav"> 
+		<a id="navicon" href="index.html"><img src="media/cha-navicon.png" alt="navicon" /></a>
+			<ul id="sites">
+				<li><a href="index.html">Home</a></li>
+					<li><a href="policies.html">Policies</a></li>
+					<li><a href="housing-info.html">Housing Information</a></li>
+					<li><a href="resources.html">Resources</a></li>
+					<li><a href="faqs.html">FAQs</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+					<li class="dropdown"><!--
+					--><button class="dropbtn">Gallery</button>
+						<div class="dropdown-content">
+						<a href="gallery-community-room.html">Community Room</a>
+						<a href="gallery-outdoor-facility.html">Outdoor Facility</a>
+						<a href="gallery-large-unit.html">Large Unit</a>
+						<a href="gallery-small-unit.html">Small Unit</a>
+						</div>
+					</li>
+			
+			</ul>
+		</nav>
+		<img class="responsive" src="media/cha-google-maps-pic.png" style="width:100%">
+	</header>
+	<article>
+		<h1>Welcome to the Cairo Housing Authority!</h1>
+			<p>This website contains general information regarding tenancy policies, 
+			forms that need to be filled, and other resources.
+			</p>
+	<h2>About Us</h2>
+		<p>The Cairo Housing Authority is also known as the "Huelett Park Apts". 
+		Our goal is to provide safe and sanitary housing for you and your family.
+		</p>
+		
+	<h2>Equal Opportunity Housing</h2>
+		<p>CHA does not discriminate on the basis of handicap, race, color, religion, sex, 
+		familial status or national origin in the admission or access to, or treatment or 
+		employment in its federally assisted programs and activities.
+		</p>
+
+	<h2>Website Navigation Video</h2>
+		<video controls preload="metadata" id="introVid">
+			<source src="media/cha-intro-video.mp4" type="video/mp4" />
+		</video>
+	
+</article>
+<aside id="links">
+	<nav id="vertical-nav">
+		<h2>Contact</h2>
+		<h2>Information</h2>
+		<ul>
+			<li>Call: <a href="tel:308-485-4722">(308)485-4722</a></li>
+		</ul>
+	</nav>
+</aside>
+<footer>
+	<address id="location">Cairo Housing Authority - 420 Main Street, Cairo, NE 68824</address>
+</footer>
+</body>
+</html>
